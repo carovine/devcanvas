@@ -1,0 +1,57 @@
+:root {
+  /* Colors */
+  --bg-primary: #e1e1e1;
+  --bg-surface: #f8f8f8;
+  --bg-white: #ffffff;
+
+  --bg-dark: #030303;
+  --bg-dark-secondary: #242424;
+
+  --text-primary: #030303;
+  --text-secondary: #808080;
+  --text-muted: #b6b3b2;
+
+  --border: #e5e5e5;
+
+  --accent: #dc644b;
+  --accent-light: #f4d7cf;
+  --accent-dark: #222831;
+
+  /* Radius */
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-xl: 28px;
+  --radius-pill: 999px;
+
+  /* Spacing */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+
+  /* Typography */
+  --sans: "Inter", sans-serif;
+  --mono: "JetBrains Mono", monospace;
+
+  --text-xs: 12px;
+  --text-sm: 14px;
+  --text-md: 16px;
+  --text-lg: 20px;
+  --text-xl: 24px;
+  --text-2xl: 32px;
+
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-semibold: 600;
+  --weight-bold: 700;
+
+  /* Shadows */
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.06);
+  --shadow-md: 0 6px 20px rgba(0, 0, 0, 0.08);
+}

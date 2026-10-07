@@ -1,0 +1,26 @@
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Main from "./pages/Mainboard/Mainboard.tsx";
+import LandingPage from "./pages/Landing/LandingPage.tsx";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <LandingPage />,
+  },
+  {
+    path: "/main",
+    element: <Main />,
+  },
+  {
+    path: "*",
+    element: <div>404 Not Found</div>,
+  },
+]);
+
+createRoot(document.getElementById("root")!).render(
+  <StrictMode>
+    <RouterProvider router={router} />
+  </StrictMode>,
+);

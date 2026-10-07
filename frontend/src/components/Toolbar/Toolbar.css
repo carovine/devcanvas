@@ -1,0 +1,46 @@
+.toolbar {
+  height: 80px;
+
+  display: flex;
+  align-items: center;
+
+  gap: 20px;
+
+  padding: 0 24px;
+
+  background: #adadad;
+
+  border-bottom: 1px solid #2d2d2d;
+}
+
+.tool-group {
+  display: flex;
+
+  gap: 12px;
+
+  padding: 10px;
+
+  border-radius: 18px;
+
+  background: #222;
+}
+
+.tool-btn {
+  padding: 12px 18px;
+
+  border: none;
+
+  border-radius: 12px;
+
+  background: #2c2c2c;
+
+  color: white;
+
+  cursor: pointer;
+
+  transition: 0.2s;
+}
+
+.tool-btn:hover {
+  background: #3b3b3b;
+}
